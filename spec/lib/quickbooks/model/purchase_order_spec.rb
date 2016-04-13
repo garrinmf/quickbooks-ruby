@@ -24,6 +24,9 @@ describe "Quickbooks::Model::PurchaseOrder" do
     purchase_order.ship_address.line3.should == "Bayshore, CA 94326"
     purchase_order.ship_address.line4.should == "(415)  555-4567"
 
+    purchase_order.memo.should == "Test Memo"
+    purchase_order.private_note.should == "Test Private Note"
+
     purchase_order.line_items.size.should == 1
 
     line1 = purchase_order.line_items[0]

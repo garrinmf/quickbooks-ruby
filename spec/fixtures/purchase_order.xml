@@ -7,6 +7,8 @@
     </MetaData>
     <DocNumber>1002</DocNumber>
     <TxnDate>2013-07-19</TxnDate>
+    <PrivateNote>Test Private Note</PrivateNote>
+    <Memo>Test Memo</Memo>
     <Line>
         <Id>1</Id>
         <Description>hose</Description>
